@@ -1,0 +1,286 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\infastructure\\implementations\\emailprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:infastructure\\implementations\\emailprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\services\\implementations\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:services\\implementations\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\helpers\\configurations\\mailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:helpers\\configurations\\mailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\infastructure\\interfaces\\iemailprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:infastructure\\interfaces\\iemailprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\models\\message\\notificationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:models\\message\\notificationmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\notification.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:notification.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\bfed5867-40c4-430f-934f-6dd0e20db1ab\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\domain\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:domain\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\notification.api\\domain\\enums\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4733A-D83E-4680-B392-EB87B189C3F0}|Notification.API.csproj|solutionrelative:domain\\enums\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MailConfiguration.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Helpers\\Configurations\\MailConfiguration.cs",
+              "RelativeDocumentMoniker": "Helpers\\Configurations\\MailConfiguration.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Helpers\\Configurations\\MailConfiguration.cs",
+              "RelativeToolTip": "Helpers\\Configurations\\MailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:16:14.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:52:56.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailProvider.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Infastructure\\Implementations\\EmailProvider.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Implementations\\EmailProvider.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Infastructure\\Implementations\\EmailProvider.cs",
+              "RelativeToolTip": "Infastructure\\Implementations\\EmailProvider.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:26:59.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmailProvider.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Infastructure\\Interfaces\\IEmailProvider.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Interfaces\\IEmailProvider.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Infastructure\\Interfaces\\IEmailProvider.cs",
+              "RelativeToolTip": "Infastructure\\Interfaces\\IEmailProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T21:26:48.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:48:44.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Services\\Implementations\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\NotificationService.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Services\\Implementations\\NotificationService.cs",
+              "RelativeToolTip": "Services\\Implementations\\NotificationService.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:52:42.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\INotificationService.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\INotificationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:52:31.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NotificationMessage.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Models\\Message\\NotificationMessage.cs",
+              "RelativeDocumentMoniker": "Models\\Message\\NotificationMessage.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Models\\Message\\NotificationMessage.cs",
+              "RelativeToolTip": "Models\\Message\\NotificationMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:51:08.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\bfed5867-40c4-430f-934f-6dd0e20db1ab\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\bfed5867-40c4-430f-934f-6dd0e20db1ab\\secrets.json",
+              "ToolTip": "C:\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\bfed5867-40c4-430f-934f-6dd0e20db1ab\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\bfed5867-40c4-430f-934f-6dd0e20db1ab\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T21:11:03.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\libman.json",
+              "RelativeDocumentMoniker": "libman.json",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\libman.json",
+              "RelativeToolTip": "libman.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T21:10:56.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Domain\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "Domain\\Response\\Response.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Domain\\Response\\Response.cs",
+              "RelativeToolTip": "Domain\\Response\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:58:52.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Notification.API.csproj",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Notification.API.csproj",
+              "RelativeDocumentMoniker": "Notification.API.csproj",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Notification.API.csproj",
+              "RelativeToolTip": "Notification.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-28T20:50:48.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DataResponse.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Domain\\Response\\DataResponse.cs",
+              "RelativeDocumentMoniker": "Domain\\Response\\DataResponse.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Domain\\Response\\DataResponse.cs",
+              "RelativeToolTip": "Domain\\Response\\DataResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:58:52.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Domain\\Enums\\StatusCode.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\StatusCode.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\Domain\\Enums\\StatusCode.cs",
+              "RelativeToolTip": "Domain\\Enums\\StatusCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T20:59:10.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Notification.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T21:03:01.995Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
