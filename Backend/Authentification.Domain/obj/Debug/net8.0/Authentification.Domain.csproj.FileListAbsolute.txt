@@ -1,0 +1,12 @@
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\bin\Debug\net8.0\Authentification.Domain.deps.json
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\bin\Debug\net8.0\Authentification.Domain.dll
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\bin\Debug\net8.0\Authentification.Domain.pdb
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\Authentification.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\Authentification.Domain.AssemblyInfoInputs.cache
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\Authentification.Domain.AssemblyInfo.cs
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\Authentification.Domain.csproj.CoreCompileInputs.cache
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\Authentification.Domain.sourcelink.json
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\Authentification.Domain.dll
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\refint\Authentification.Domain.dll
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\Authentification.Domain.pdb
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.Domain\obj\Debug\net8.0\ref\Authentification.Domain.dll

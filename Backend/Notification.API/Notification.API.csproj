@@ -9,11 +9,20 @@
 
   <ItemGroup>
     <PackageReference Include="MailKit" Version="4.7.1.1" />
+    <PackageReference Include="MassTransit" Version="8.2.3" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Abstractions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Authentification.Domain">
+      <HintPath>..\Authentification.Domain\bin\Debug\net8.0\Authentification.Domain.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

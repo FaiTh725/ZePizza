@@ -1,5 +1,5 @@
-﻿using Authentification.API.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using Authentification.Domain.Entities;
 
 namespace Authentification.API.Dal
 {

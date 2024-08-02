@@ -1,5 +1,5 @@
-﻿using Authentification.API.Models.User;
-using Authentification.API.Services.Interfaces;
+﻿using Authentification.Domain.Abstractions.Services;
+using Authentification.Domain.Models.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Authentification.API.Controllers
@@ -35,6 +35,14 @@ namespace Authentification.API.Controllers
         {
             var response = await userService.StartAuthentification(mail);
 
+            return new JsonResult(response);
+        }
+
+        [HttpGet("[action]")]
+        public async Task<IActionResult> ContinueAuthentification(string email, string value)
+        {
+            var response = await userService.GetAccessToAuthentification(email, value);   
+        
             return new JsonResult(response);
         }
 

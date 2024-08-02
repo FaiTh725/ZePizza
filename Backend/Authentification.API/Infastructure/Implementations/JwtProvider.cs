@@ -1,6 +1,6 @@
-﻿using Authentification.API.Domain.Entities;
-using Authentification.API.Helpers.Configurations;
+﻿using Authentification.API.Helpers.Configurations;
 using Authentification.API.Infastructure.Interfaces;
+using Authentification.Domain.Entities;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

@@ -1,4 +1,4 @@
-﻿using Authentification.API.Domain.Entities;
+﻿using Authentification.Domain.Entities;
 
 namespace Authentification.API.Infastructure.Interfaces
 {

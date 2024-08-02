@@ -1,11 +1,14 @@
-﻿using Authentification.API.Dal.Interfaces;
-using Authentification.API.Domain.Entities;
-using Authentification.API.Domain.Enums;
-using Authentification.API.Domain.Response;
-using Authentification.API.Infastructure.Interfaces;
-using Authentification.API.Models.User;
-using Authentification.API.Services.Interfaces;
+﻿using Authentification.API.Infastructure.Interfaces;
+using Authentification.Domain.Abstractions.Repositories;
+using Authentification.Domain.Abstractions.Services;
+using Authentification.Domain.Entities;
+using Authentification.Domain.Enums;
+using Authentification.Domain.Models.User;
+using Authentification.Domain.Response;
+using MassTransit;
 using System.Text.RegularExpressions;
+using Response = Authentification.Domain.Response.Response;
+
 
 namespace Authentification.API.Services.Implementations
 {
@@ -14,25 +17,61 @@ namespace Authentification.API.Services.Implementations
         private readonly IUserRepository userRepository;
         private readonly IPasswordHashind passwordHashService;
         private readonly IJwtProvider jwtProvider;
-        private readonly ICashProvider cash;
+        private readonly IRedisProvider cash;
+        private readonly IPublishEndpoint publishEndPoint;
 
         public UserService(
             IUserRepository userRepository,
             IPasswordHashind passwordHashService,
             IJwtProvider jwtProvider,
-            ICashProvider cash)
+            IRedisProvider cash,
+            IPublishEndpoint publishEndPoint)
         {
             this.userRepository = userRepository;
             this.passwordHashService = passwordHashService;
             this.jwtProvider = jwtProvider;
             this.cash = cash;
+            this.publishEndPoint = publishEndPoint;
+        }
+
+        public async Task<Response> GetAccessToAuthentification(string email, string value)
+        {
+            var unConfirmedUser = await cash.GetData<UnConfirmedUser>(email);
+
+            if (unConfirmedUser == null)
+            {
+                return new Response
+                {
+                    StatusCode = StatusCode.NotFound,
+                    Description = "the is not time left to registr"
+                };
+            }
+
+            if (unConfirmedUser.Value == value)
+            {
+                await cash.DeleteData(email);
+
+                return new Response
+                {
+                    StatusCode = StatusCode.Ok,
+                    Description = "Provide access to auth"
+                };
+            }
+            else
+            {
+                return new Response
+                {
+                    StatusCode = StatusCode.AuthDenied,
+                    Description = "Value is not correct"
+                };
+            }
         }
 
         public async Task<DataResponse<UserResponse>> Login(LoginUser request)
         {
             var user = await userRepository.GetByEmail(request.Email);
 
-            if(user == null)
+            if (user == null)
             {
                 return new DataResponse<UserResponse>
                 {
@@ -42,7 +81,7 @@ namespace Authentification.API.Services.Implementations
                 };
             }
 
-            if(!passwordHashService.Verify(request.Password, user.PasswordHash))
+            if (!passwordHashService.Verify(request.Password, user.PasswordHash))
             {
                 return new DataResponse<UserResponse>
                 {
@@ -67,11 +106,11 @@ namespace Authentification.API.Services.Implementations
 
         public async Task<DataResponse<UserResponse>> Register(RegisterUser request)
         {
-            if(request.UserName == null || request.Password == null || request.Email == null)
+            if (request.UserName == null || request.Password == null || request.Email == null)
             {
                 return new DataResponse<UserResponse>
                 {
-                    Data = new (),
+                    Data = new(),
                     Description = "All fileds are required",
                     StatusCode = StatusCode.InvalidData
                 };
@@ -99,7 +138,7 @@ namespace Authentification.API.Services.Implementations
 
             var user = await userRepository.GetByEmail(request.Email);
 
-            if(user != null)
+            if (user != null)
             {
                 return new DataResponse<UserResponse>
                 {
@@ -135,7 +174,7 @@ namespace Authentification.API.Services.Implementations
         {
             var user = await userRepository.GetByEmail(mail);
 
-            if(user != null)
+            if (user != null)
             {
                 return new Response
                 {
@@ -144,16 +183,28 @@ namespace Authentification.API.Services.Implementations
                 };
             }
 
-            await cash.SetData(mail, new UnComfirmedUser
+            var random = new Random();
+            var randomNumbers = random.Next(0, 10000).ToString().PadLeft(4, '0');
+
+            await cash.SetData(mail, new UnConfirmedUser
             {
                 Email = mail,
                 Date = DateTime.Now,
-                HashValue = "hui"
+                Value = randomNumbers
+            }, DateTimeOffset.Now.AddMinutes(1));
+
+            await publishEndPoint.Publish(new UnConfirmedUser
+            {
+                Email = mail,
+                Date = DateTime.Now,
+                Value = randomNumbers
             });
 
-            var data = await cash.GetData<UnComfirmedUser>(mail);
-
-            return null;
+            return new Response
+            {
+                StatusCode = StatusCode.Ok,
+                Description = "Send confirm email"
+            };
         }
     }
 }

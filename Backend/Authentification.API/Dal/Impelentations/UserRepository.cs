@@ -1,5 +1,5 @@
-﻿using Authentification.API.Dal.Interfaces;
-using Authentification.API.Domain.Entities;
+﻿using Authentification.Domain.Abstractions.Repositories;
+using Authentification.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Authentification.API.Dal.Impelentations

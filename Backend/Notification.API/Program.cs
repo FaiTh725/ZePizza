@@ -1,3 +1,4 @@
+using Notification.API.Helpers.Extentions;
 using Notification.API.Infastructure.Implementations;
 using Notification.API.Infastructure.Interfaces;
 using Notification.API.Services.Implementations;
@@ -15,6 +16,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<INotificationService, NotificationService>();
 
 builder.Services.AddScoped<IEmailProvider, EmailProvider>();
+
+builder.Services.AddMassTransit(builder.Configuration);
+builder.Host.SerilogConfigure();
 
 var app = builder.Build();
 

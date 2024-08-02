@@ -1,4 +1,5 @@
 ﻿using Authentification.API.Helpers.Configurations;
+using MassTransit;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -38,8 +39,6 @@ namespace Authentification.API.Helpers.Extentions
                             return Task.CompletedTask;
                         }
                     };
-
-                    
                 });
 
             // token should containt claim with key test and value true
@@ -61,6 +60,26 @@ namespace Authentification.API.Helpers.Extentions
             services.AddStackExchangeRedisCache(redisOptions =>
             {
                 redisOptions.Configuration = redisConnection;
+            });
+        }
+
+        public static void AddMassTransit(this IServiceCollection services, IConfiguration configuration)
+        {
+            var busConf = configuration.GetSection("BusConf").Get<BusConfigurations>();
+
+            services.AddMassTransit(configuraion =>
+            {
+                configuraion.UsingRabbitMq((context, configurations) =>
+                {
+                    configurations.Host(busConf?.Host ?? "localhost",
+                        (ushort)(busConf?.Port ?? 5672), 
+                        busConf?.VirtualHost ?? "/", 
+                        h =>
+                    {
+                        h.Username(busConf?.UserName ?? "guest");
+                        h.Password(busConf?.UserPassword ?? "guest");
+                    });
+                });
             });
         }
     }
