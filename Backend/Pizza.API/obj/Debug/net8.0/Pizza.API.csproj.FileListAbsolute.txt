@@ -112,3 +112,9 @@ C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\Microsoft.Ide
 C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\Azure.Core.dll
+C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\Azure.Storage.Blobs.dll
+C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\Azure.Storage.Common.dll
+C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\VSProjects\MicroservicesSolo\Backend\Pizza.API\bin\Debug\net8.0\System.Memory.Data.dll
