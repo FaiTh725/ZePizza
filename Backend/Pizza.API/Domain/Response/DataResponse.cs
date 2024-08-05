@@ -4,6 +4,6 @@ namespace Pizza.API.Domain.Response
 {
     public class DataResponse<T> : Response
     {
-        T Data { get; set; }
+        public T Data { get; set; }
     }
 }

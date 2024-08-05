@@ -5,62 +5,58 @@ using Pizza.API.Services.Interfaces;
 
 namespace Pizza.API.Controllers
 {
+
     [ApiController]
     [Route("api/[controller]")]
     public class PizzaController : ControllerBase
     {
         private readonly IPizzaService pizzaService;
-        //TODO delete continue
-        private readonly IFileService fileService;
 
         public PizzaController(
-            IPizzaService pizzaService,
-            IFileService fileService)
+            IPizzaService pizzaService)
         {
             this.pizzaService = pizzaService;
-            this.fileService = fileService;
         }
 
         [HttpPost("[action]")]
         /*[Authorize("Manager")]*/
         public async Task<IActionResult> CreatePizza([FromForm]CreatePizza request)
         {
-            Guid fileId = Guid.Empty;
+            var response = await pizzaService.CreatePizza(request);
 
-            if(request.Image != null)
-            {
-                using var stream = request.Image.OpenReadStream();
-
-                fileId = await fileService.UploadFile(stream, request.Image.ContentType);
-            }
-
-            return Ok(fileId.ToString());
+            return new JsonResult(response);
         }
 
         [HttpDelete("[action]")]
-        [Authorize("Manager")]
-        public async Task<IActionResult> DeletePizza()
+        /*[Authorize("Manager")]*/
+        public async Task<IActionResult> DeletePizza(int pizzaId)
         {
-            return null;
+            var response = await pizzaService.DeletePizza(pizzaId);
+
+            return new JsonResult(response);
         }
 
         [HttpPut("[action]")]
-        [Authorize("Manager")]
-        public async Task<IActionResult> UpdatePizza()
+        /*[Authorize("Manager")]*/
+        public async Task<IActionResult> UpdatePizza(UpdatePizza request)
         {
-            return null;
+            throw new NotImplementedException();
         }
 
         [HttpGet("[action]")]
         public async Task<IActionResult> GetAllPizzas()
         {
-            return null;
+            var response = await pizzaService.GetAllPizzas();
+
+            return new JsonResult(response);
         }
 
         [HttpGet("[action]")]
-        public async Task<IActionResult> GetPizza()
+        public async Task<IActionResult> GetPizza(int pizzaId)
         {
-            return null;
+            var response = await pizzaService.GetPizzaById(pizzaId);
+
+            return new JsonResult(response);
         }
     }
 }

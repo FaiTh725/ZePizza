@@ -8,10 +8,8 @@ using Pizza.API.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -20,16 +18,15 @@ builder.Services.AddScoped<IAdditiveService, AdditiveService>();
 builder.Services.AddSingleton<IFileService, FileService>();
 
 builder.Services.AddScoped<IPizzaRepository, PizzaRepository>();
+builder.Services.AddScoped<IAdditiveRepository, AdditiveRepository>();
 
 builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddAuthenticationConf(builder.Configuration);
 builder.Services.AddAuthorizationPolicyConf();
 builder.Services.AddSingleton(_ => new BlobServiceClient(builder.Configuration.GetConnectionString("DataStorage")));
-// connection string "UsedevelopmentStorage=true;DevelopmentStorageProxyUri=http://127.0.0.1:10000/devstoreaccount1"
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

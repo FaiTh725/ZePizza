@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Pizza.API.Models.Additive;
+using Pizza.API.Services.Interfaces;
 using System.Diagnostics.CodeAnalysis;
 
 namespace Pizza.API.Controllers
@@ -8,32 +10,45 @@ namespace Pizza.API.Controllers
     [Route("api/[controller]")]
     public class AdditiveController : ControllerBase
     {
+        private readonly IAdditiveService additiveService;
+
+        public AdditiveController(IAdditiveService additiveService)
+        {
+            this.additiveService = additiveService;
+        }
+
         [HttpGet("[action]")]
-        [Authorize("Manager")]
+        /*[Authorize("Manager")]*/
         public async Task<IActionResult> GetAllAdditives()
         {
-            return null;
+            var response = await additiveService.GetAllAdditives();
+
+            return new JsonResult(response);
         }
 
         [HttpPost("[action]")]
-        [Authorize("Manager")]
-        public async Task<IActionResult> CreateAdditive()
+        /*[Authorize("Manager")]*/
+        public async Task<IActionResult> CreateAdditive(CreateAdditive request)
         {
-            return null;
+            var response = await additiveService.CreateAdditive(request);
+
+            return new JsonResult(response);
         }
 
         [HttpPut("[action]")]
-        [Authorize("Manager")]
+        /*[Authorize("Manager")]*/
         public async Task<IActionResult> UpdateAddtitive()
         {
-            return null;
+            throw new NotImplementedException();
         }
 
         [HttpDelete("[action]")]
-        [Authorize("Manager")]
-        public async Task<IActionResult> DeleteAdditive()
+        /*[Authorize("Manager")]*/
+        public async Task<IActionResult> DeleteAdditive(int additiveId)
         {
-            return null;
+            var response = await additiveService.DeleteAdditive(additiveId);
+
+            return new JsonResult(response);
         }
     } 
 }
