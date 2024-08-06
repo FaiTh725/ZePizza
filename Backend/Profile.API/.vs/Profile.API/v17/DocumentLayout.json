@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\profile.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\enums\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Enums\\StatusCode.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Enums\\StatusCode.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Enums\\StatusCode.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Enums\\StatusCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:47:18.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f5cd1b51-c771-5648-966f-646d419b1e7c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Profile.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Entities\\Profile.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Profile.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Entities\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:47:00.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:47:00.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.Domain",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Profile.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Profile.Domain.csproj",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Profile.Domain.csproj",
+              "RelativeToolTip": "..\\Profile.Domain\\Profile.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-05T16:45:43.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataResponse.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Response\\DataResponse.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Response\\DataResponse.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Response\\DataResponse.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Response\\DataResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:47:01.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Response\\Response.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Response\\Response.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Response\\Response.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Response\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:47:01.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

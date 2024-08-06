@@ -178,8 +178,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-05T13:33:30.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T13:33:30.234Z"
             },
             {
               "$type": "Document",
@@ -191,8 +190,7 @@
               "RelativeToolTip": "Services\\Implementations\\AdditiveService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAGEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T23:56:03.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T23:56:03.146Z"
             },
             {
               "$type": "Document",
@@ -204,8 +202,7 @@
               "RelativeToolTip": "Services\\Implementations\\PizzaService.cs",
               "ViewState": "AQIAAHcAAAAAAAAAAAAIwA8AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T22:49:56.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T22:49:56.734Z"
             },
             {
               "$type": "Document",
@@ -229,8 +226,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-02T18:35:07.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T18:35:07.701Z"
             },
             {
               "$type": "Document",
@@ -240,7 +236,7 @@
               "RelativeDocumentMoniker": "Controllers\\PizzaController.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Controllers\\PizzaController.cs",
               "RelativeToolTip": "Controllers\\PizzaController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwBwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T22:48:19.855Z",
               "EditorCaption": ""
@@ -279,8 +275,7 @@
               "RelativeToolTip": "Controllers\\AdditiveController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T23:55:15.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T23:55:15.802Z"
             },
             {
               "$type": "Document",
@@ -292,8 +287,7 @@
               "RelativeToolTip": "Dal\\Configuration\\AdditiveConfiguration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T19:23:04.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T19:23:04.468Z"
             },
             {
               "$type": "Document",
@@ -305,8 +299,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T19:38:32.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T19:38:32.223Z"
             },
             {
               "$type": "Document",
@@ -342,8 +335,7 @@
               "RelativeToolTip": "Dal\\Implementations\\PizzaRepository.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAowCYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T22:47:33.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T22:47:33.226Z"
             },
             {
               "$type": "Document",

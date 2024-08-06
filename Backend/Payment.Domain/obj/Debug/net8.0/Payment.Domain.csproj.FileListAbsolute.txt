@@ -1,0 +1,12 @@
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\bin\Debug\net8.0\Payment.Domain.deps.json
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\bin\Debug\net8.0\Payment.Domain.dll
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\bin\Debug\net8.0\Payment.Domain.pdb
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\Payment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\Payment.Domain.AssemblyInfoInputs.cache
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\Payment.Domain.AssemblyInfo.cs
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\Payment.Domain.csproj.CoreCompileInputs.cache
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\Payment.Domain.sourcelink.json
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\Payment.Domain.dll
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\refint\Payment.Domain.dll
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\Payment.Domain.pdb
+C:\VSProjects\MicroservicesSolo\Backend\Payment.Domain\obj\Debug\net8.0\ref\Payment.Domain.dll

@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00D05F3A-3554-48E0-BCA1-17B420A4340A}|..\\Authentification.Domain\\Authentification.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\authentification.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34117063-C6ED-405C-95BE-A06C2C410F32}|Authentification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\authentification.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34117063-C6ED-405C-95BE-A06C2C410F32}|Authentification.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -89,9 +92,6 @@
       "AbsoluteMoniker": "D:0:0:{00D05F3A-3554-48E0-BCA1-17B420A4340A}|..\\Authentification.Domain\\Authentification.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\authentification.domain\\enums\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00D05F3A-3554-48E0-BCA1-17B420A4340A}|..\\Authentification.Domain\\Authentification.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\authentification.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00D05F3A-3554-48E0-BCA1-17B420A4340A}|..\\Authentification.Domain\\Authentification.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\authentification.domain\\authentification.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -117,7 +117,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -132,21 +132,12 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppExtention.cs",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Extentions\\AppExtention.cs",
-              "RelativeDocumentMoniker": "Helpers\\Extentions\\AppExtention.cs",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Extentions\\AppExtention.cs",
-              "RelativeToolTip": "Helpers\\Extentions\\AppExtention.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwDIAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T15:33:03.101Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -154,12 +145,11 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T14:58:05.064Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T14:58:05.064Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "JwtProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Implementations\\JwtProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Implementations\\JwtProvider.cs",
@@ -167,12 +157,11 @@
               "RelativeToolTip": "Infastructure\\Implementations\\JwtProvider.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T13:43:13.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:43:13.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Enums\\Role.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Enums\\Role.cs",
@@ -180,25 +169,24 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Enums\\Role.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:29:06.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:29:06.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABgAAAA4AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T13:11:03.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
@@ -206,12 +194,11 @@
               "RelativeToolTip": "Services\\Implementations\\UserService.cs",
               "ViewState": "AQIAAK0AAAAAAAAAAIAwwMEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T12:50:05.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:50:05.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "JwtConfigurations.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Configurations\\JwtConfigurations.cs",
               "RelativeDocumentMoniker": "Helpers\\Configurations\\JwtConfigurations.cs",
@@ -219,12 +206,11 @@
               "RelativeToolTip": "Helpers\\Configurations\\JwtConfigurations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T12:48:45.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:48:45.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "PasswordHashind.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Implementations\\PasswordHashind.cs",
               "RelativeDocumentMoniker": "Infastructure\\Implementations\\PasswordHashind.cs",
@@ -232,12 +218,11 @@
               "RelativeToolTip": "Infastructure\\Implementations\\PasswordHashind.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T13:43:44.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:43:44.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IRedisProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Interfaces\\IRedisProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Interfaces\\IRedisProvider.cs",
@@ -245,12 +230,11 @@
               "RelativeToolTip": "Infastructure\\Interfaces\\IRedisProvider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T23:06:10.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T23:06:10.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RedisDatabaseProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Implementations\\RedisDatabaseProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Implementations\\RedisDatabaseProvider.cs",
@@ -258,12 +242,11 @@
               "RelativeToolTip": "Infastructure\\Implementations\\RedisDatabaseProvider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T17:47:28.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T17:47:28.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Abstractions\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Abstractions\\Services\\IUserService.cs",
@@ -271,12 +254,36 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Abstractions\\Services\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:40:57.593Z",
+              "WhenOpened": "2024-07-29T18:40:57.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Authentification.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "..\\Authentification.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:28:24.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
+              "Title": "AppExtention.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Extentions\\AppExtention.cs",
+              "RelativeDocumentMoniker": "Helpers\\Extentions\\AppExtention.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Extentions\\AppExtention.cs",
+              "RelativeToolTip": "Helpers\\Extentions\\AppExtention.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwDIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T15:33:03.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UnConfirmedUser.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Entities\\UnConfirmedUser.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Entities\\UnConfirmedUser.cs",
@@ -284,12 +291,11 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Entities\\UnConfirmedUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:28:41.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:28:41.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Response\\Response.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Response\\Response.cs",
@@ -297,12 +303,11 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Response\\Response.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:29:38.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:29:38.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Dal\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Dal\\AppDbContext.cs",
@@ -310,12 +315,11 @@
               "RelativeToolTip": "Dal\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T12:48:30.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:48:30.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Dal\\Impelentations\\UserRepository.cs",
               "RelativeDocumentMoniker": "Dal\\Impelentations\\UserRepository.cs",
@@ -323,12 +327,11 @@
               "RelativeToolTip": "Dal\\Impelentations\\UserRepository.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAD4vxsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T12:50:26.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:50:26.931Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Abstractions\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Abstractions\\Repositories\\IUserRepository.cs",
@@ -336,12 +339,11 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Abstractions\\Repositories\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:40:23.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:40:23.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "BusConfigurations.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Configurations\\BusConfigurations.cs",
               "RelativeDocumentMoniker": "Helpers\\Configurations\\BusConfigurations.cs",
@@ -349,12 +351,11 @@
               "RelativeToolTip": "Helpers\\Configurations\\BusConfigurations.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T15:54:58.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T15:54:58.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IJwtProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Interfaces\\IJwtProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Interfaces\\IJwtProvider.cs",
@@ -362,12 +363,11 @@
               "RelativeToolTip": "Infastructure\\Interfaces\\IJwtProvider.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T13:43:05.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:43:05.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IPasswordHashind.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Interfaces\\IPasswordHashind.cs",
               "RelativeDocumentMoniker": "Infastructure\\Interfaces\\IPasswordHashind.cs",
@@ -375,12 +375,11 @@
               "RelativeToolTip": "Infastructure\\Interfaces\\IPasswordHashind.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-28T13:43:35.197Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:43:35.197Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "DataResponse.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Response\\DataResponse.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Response\\DataResponse.cs",
@@ -388,12 +387,11 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Response\\DataResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:29:39.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:29:39.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UserResponse.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Models\\User\\UserResponse.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Models\\User\\UserResponse.cs",
@@ -401,12 +399,11 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Models\\User\\UserResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:46:19.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:46:19.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "RegisterUser.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Models\\User\\RegisterUser.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Models\\User\\RegisterUser.cs",
@@ -414,12 +411,11 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Models\\User\\RegisterUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:46:12.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:46:12.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "LoginUser.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Models\\User\\LoginUser.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Models\\User\\LoginUser.cs",
@@ -427,12 +423,11 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Models\\User\\LoginUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:46:04.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:46:04.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "StatusCode.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Enums\\StatusCode.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Enums\\StatusCode.cs",
@@ -440,21 +435,7 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Enums\\StatusCode.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:29:01.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "..\\Authentification.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "..\\Authentification.Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T18:28:24.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:29:01.114Z"
             },
             {
               "$type": "Document",
@@ -466,8 +447,7 @@
               "RelativeToolTip": "..\\Authentification.Domain\\Authentification.Domain.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-29T18:26:49.723Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T18:26:49.723Z"
             },
             {
               "$type": "Document",
@@ -479,8 +459,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-28T13:01:48.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:01:48.227Z"
             },
             {
               "$type": "Document",
@@ -492,8 +471,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\78e4265b-36e5-4883-a0fa-af50f690f637\\secrets.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-28T15:07:17.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T15:07:17.963Z"
             },
             {
               "$type": "Document",
@@ -505,8 +483,7 @@
               "RelativeToolTip": "Authentification.API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-28T12:43:13.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:43:13.028Z"
             },
             {
               "$type": "Document",
@@ -518,8 +495,7 @@
               "RelativeToolTip": "libman.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-28T12:50:41.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T12:50:41.183Z"
             },
             {
               "$type": "Bookmark",
