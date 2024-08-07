@@ -6,8 +6,11 @@ using Authentification.Domain.Enums;
 using Authentification.Domain.Models.User;
 using Authentification.Domain.Response;
 using MassTransit;
+using Profile.Domain.Entities;
 using System.Text.RegularExpressions;
 using Response = Authentification.Domain.Response.Response;
+using ProfileEntity = Profile.Domain.Entities.Profile;
+using Profile.Domain.Models.Profile;
 
 
 namespace Authentification.API.Services.Implementations
@@ -155,6 +158,12 @@ namespace Authentification.API.Services.Implementations
                 Email = request.Email,
                 PasswordHash = passwordHash,
                 UserName = request.UserName,
+            });
+
+            await publishEndPoint.Publish(new CreateProfile
+            {
+                Email = newUser.Email,
+                UserName = newUser.UserName
             });
 
             var token = jwtProvider.GenerateToken(newUser);

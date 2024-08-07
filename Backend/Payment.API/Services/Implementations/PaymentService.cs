@@ -134,7 +134,7 @@ namespace Payment.API.Services.Implementations
                     Data = new Transaction
                     {
                         Id = responseTransaction.Id,
-                        Amount = responseTransaction.Amount,
+                        Amount = responseTransaction.Amount / 100,
                         ReceiptEmail = responseTransaction.ReceiptEmail,
                         Description = responseTransaction.Description,
                         Currency = responseTransaction.Currency,

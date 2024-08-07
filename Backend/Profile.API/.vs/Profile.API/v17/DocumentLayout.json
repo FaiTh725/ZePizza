@@ -3,22 +3,99 @@
   "WorkspaceRootPath": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\services\\implementations\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:services\\implementations\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\infastructure\\consumers\\profileconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:infastructure\\consumers\\profileconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\abstractions\\services\\iprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\models\\order\\vieworder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\models\\order\\createorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\helpers\\configuration\\busconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:helpers\\configuration\\busconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\profile.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:profile.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\models\\profile\\createprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\models\\profile\\viewprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\entities\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\profile.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\abstractions\\repositories\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\enums\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\models\\profile\\updateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\dal\\implementations\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:dal\\implementations\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\dal\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:dal\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\dal\\configurations\\profileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:dal\\configurations\\profileconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\enums\\statuscode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4448620-A2AC-4D17-BECC-BC789392E82A}|..\\Profile.Domain\\Profile.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.domain\\profile.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\profile.api\\migrations\\20240807172618_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A1AA3C9-5462-42C8-90AE-C7F023FA8FB4}|Profile.API.csproj|solutionrelative:migrations\\20240807172618_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,21 +105,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StatusCode.cs",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Enums\\StatusCode.cs",
-              "RelativeDocumentMoniker": "..\\Profile.Domain\\Enums\\StatusCode.cs",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Enums\\StatusCode.cs",
-              "RelativeToolTip": "..\\Profile.Domain\\Enums\\StatusCode.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:47:18.911Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -62,6 +126,184 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Services\\Implementations\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ProfileService.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Services\\Implementations\\ProfileService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ProfileService.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAjwNAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:14:10.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfileConsumer.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Infastructure\\Consumers\\ProfileConsumer.cs",
+              "RelativeDocumentMoniker": "Infastructure\\Consumers\\ProfileConsumer.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Infastructure\\Consumers\\ProfileConsumer.cs",
+              "RelativeToolTip": "Infastructure\\Consumers\\ProfileConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:14:52.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppExtention.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Helpers\\Extentions\\AppExtention.cs",
+              "RelativeDocumentMoniker": "Helpers\\Extentions\\AppExtention.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Helpers\\Extentions\\AppExtention.cs",
+              "RelativeToolTip": "Helpers\\Extentions\\AppExtention.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswCcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:53:49.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:16:21.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T16:57:49.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProfileService.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Abstractions\\Services\\IProfileService.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Abstractions\\Services\\IProfileService.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Abstractions\\Services\\IProfileService.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Abstractions\\Services\\IProfileService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:29:02.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ViewOrder.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Order\\ViewOrder.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Models\\Order\\ViewOrder.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Order\\ViewOrder.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Models\\Order\\ViewOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:32:32.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:27:13.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateOrder.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Order\\CreateOrder.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Models\\Order\\CreateOrder.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Order\\CreateOrder.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Models\\Order\\CreateOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T22:01:03.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T21:50:44.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Dal\\AppDbContext.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\AppDbContext.cs",
+              "RelativeToolTip": "Dal\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T16:47:59.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BusConfigurations.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Helpers\\Configuration\\BusConfigurations.cs",
+              "RelativeDocumentMoniker": "Helpers\\Configuration\\BusConfigurations.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Helpers\\Configuration\\BusConfigurations.cs",
+              "RelativeToolTip": "Helpers\\Configuration\\BusConfigurations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:53:49.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateProfile.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Profile\\CreateProfile.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Models\\Profile\\CreateProfile.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Profile\\CreateProfile.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Models\\Profile\\CreateProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:38:27.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewProfile.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Profile\\ViewProfile.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Models\\Profile\\ViewProfile.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Profile\\ViewProfile.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Models\\Profile\\ViewProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:17:56.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Profile.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Profile.cs",
               "RelativeDocumentMoniker": "..\\Profile.Domain\\Entities\\Profile.cs",
@@ -69,38 +311,47 @@
               "RelativeToolTip": "..\\Profile.Domain\\Entities\\Profile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:47:00.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T16:47:00.877Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "..\\Profile.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "..\\Profile.Domain\\Entities\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:47:00.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profile.Domain",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Profile.Domain.csproj",
-              "RelativeDocumentMoniker": "..\\Profile.Domain\\Profile.Domain.csproj",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Profile.Domain.csproj",
-              "RelativeToolTip": "..\\Profile.Domain\\Profile.Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "Profile.API.csproj",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Profile.API.csproj",
+              "RelativeDocumentMoniker": "Profile.API.csproj",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Profile.API.csproj",
+              "RelativeToolTip": "Profile.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-05T16:45:43.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T16:47:41.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
+              "Title": "IProfileRepository.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Abstractions\\Repositories\\IProfileRepository.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Abstractions\\Repositories\\IProfileRepository.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Abstractions\\Repositories\\IProfileRepository.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Abstractions\\Repositories\\IProfileRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:29:12.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateProfile.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Profile\\UpdateProfile.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Models\\Profile\\UpdateProfile.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Models\\Profile\\UpdateProfile.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Models\\Profile\\UpdateProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:30:23.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "DataResponse.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Response\\DataResponse.cs",
               "RelativeDocumentMoniker": "..\\Profile.Domain\\Response\\DataResponse.cs",
@@ -108,12 +359,95 @@
               "RelativeToolTip": "..\\Profile.Domain\\Response\\DataResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:47:01.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T16:47:01.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:47:00.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\Implementations\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "Dal\\Implementations\\ProfileRepository.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\Implementations\\ProfileRepository.cs",
+              "RelativeToolTip": "Dal\\Implementations\\ProfileRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:19:09.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240807172618_init.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Migrations\\20240807172618_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240807172618_init.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Migrations\\20240807172618_init.cs",
+              "RelativeToolTip": "Migrations\\20240807172618_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:26:18.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProfileConfiguration.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\Configurations\\ProfileConfiguration.cs",
+              "RelativeDocumentMoniker": "Dal\\Configurations\\ProfileConfiguration.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\Configurations\\ProfileConfiguration.cs",
+              "RelativeToolTip": "Dal\\Configurations\\ProfileConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:06:25.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\Configurations\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "Dal\\Configurations\\OrderConfiguration.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.API\\Dal\\Configurations\\OrderConfiguration.cs",
+              "RelativeToolTip": "Dal\\Configurations\\OrderConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:06:25.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Enums\\StatusCode.cs",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Enums\\StatusCode.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Enums\\StatusCode.cs",
+              "RelativeToolTip": "..\\Profile.Domain\\Enums\\StatusCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:47:18.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Profile.Domain.csproj",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Profile.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Profile.Domain\\Profile.Domain.csproj",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Profile.Domain.csproj",
+              "RelativeToolTip": "..\\Profile.Domain\\Profile.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-05T16:45:43.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Profile.Domain\\Response\\Response.cs",
               "RelativeDocumentMoniker": "..\\Profile.Domain\\Response\\Response.cs",
@@ -121,8 +455,7 @@
               "RelativeToolTip": "..\\Profile.Domain\\Response\\Response.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T16:47:01.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T16:47:01.236Z"
             },
             {
               "$type": "Bookmark",

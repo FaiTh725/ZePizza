@@ -125,3 +125,5 @@ C:\VSProjects\MicroservicesSolo\Backend\Authentification.API\bin\Debug\net8.0\Ra
 C:\VSProjects\MicroservicesSolo\Backend\Authentification.API\obj\Debug\net8.0\Authentification.API.sourcelink.json
 C:\VSProjects\MicroservicesSolo\Backend\Authentification.API\bin\Debug\net8.0\Authentification.Domain.dll
 C:\VSProjects\MicroservicesSolo\Backend\Authentification.API\bin\Debug\net8.0\Authentification.Domain.pdb
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.API\bin\Debug\net8.0\Profile.Domain.dll
+C:\VSProjects\MicroservicesSolo\Backend\Authentification.API\bin\Debug\net8.0\Profile.Domain.pdb

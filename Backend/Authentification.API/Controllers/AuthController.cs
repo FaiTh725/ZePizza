@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Authentification.API.Controllers
 {
+    // TODO implement logic to start authentication using jwt token
+    // when user verify email method gives special jwt token that provide register
     [ApiController]
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
@@ -46,7 +48,7 @@ namespace Authentification.API.Controllers
             return new JsonResult(response);
         }
 
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> Register(RegisterUser request)
         {
             var response = await userService.Register(request);

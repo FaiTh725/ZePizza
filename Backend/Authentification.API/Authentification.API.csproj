@@ -27,4 +27,10 @@
     <ProjectReference Include="..\Authentification.Domain\Authentification.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Profile.Domain">
+      <HintPath>..\Profile.Domain\bin\Debug\net8.0\Profile.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

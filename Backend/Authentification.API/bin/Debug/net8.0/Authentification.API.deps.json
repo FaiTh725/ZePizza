@@ -18,7 +18,8 @@
           "Microsoft.Extensions.Caching.StackExchangeRedis": "8.0.7",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "StackExchange.Redis": "2.8.0",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "Profile.Domain": "1.0.0.0"
         },
         "runtime": {
           "Authentification.API.dll": {}
@@ -783,6 +784,14 @@
         "runtime": {
           "Authentification.Domain.dll": {}
         }
+      },
+      "Profile.Domain/1.0.0.0": {
+        "runtime": {
+          "Profile.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1284,6 +1293,11 @@
     },
     "Authentification.Domain/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Profile.Domain/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
