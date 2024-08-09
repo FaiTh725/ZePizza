@@ -25,7 +25,7 @@ namespace Payment.API.Controllers
             return new JsonResult(response);
         }
 
-        [HttpGet("[action]")]
+        [HttpPost("[action]")]
         public async Task<IActionResult> ExecuteTransaction(CreateTransaction request)
         {
             var response = await paymentService.CreateTransaction(request);

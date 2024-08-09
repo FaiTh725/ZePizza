@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{34117063-C6ED-405C-95BE-A06C2C410F32}|Authentification.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{34117063-C6ED-405C-95BE-A06C2C410F32}|Authentification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\authentification.api\\helpers\\handlers\\redisconhandlerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34117063-C6ED-405C-95BE-A06C2C410F32}|Authentification.API.csproj|solutionrelative:helpers\\handlers\\redisconhandlerexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34117063-C6ED-405C-95BE-A06C2C410F32}|Authentification.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\authentification.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{34117063-C6ED-405C-95BE-A06C2C410F32}|Authentification.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -117,7 +121,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -137,20 +141,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RedisConHandlerException.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Handlers\\RedisConHandlerException.cs",
+              "RelativeDocumentMoniker": "Helpers\\Handlers\\RedisConHandlerException.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Handlers\\RedisConHandlerException.cs",
+              "RelativeToolTip": "Helpers\\Handlers\\RedisConHandlerException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T18:40:25.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAA4AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-28T13:11:03.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
@@ -162,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IRedisProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Interfaces\\IRedisProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Interfaces\\IRedisProvider.cs",
@@ -174,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RedisDatabaseProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Implementations\\RedisDatabaseProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Implementations\\RedisDatabaseProvider.cs",
@@ -186,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Abstractions\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Abstractions\\Services\\IUserService.cs",
@@ -198,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Entities\\User.cs",
@@ -210,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BusConfigurations.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Configurations\\BusConfigurations.cs",
               "RelativeDocumentMoniker": "Helpers\\Configurations\\BusConfigurations.cs",
@@ -222,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -234,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "PasswordHashind.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Implementations\\PasswordHashind.cs",
               "RelativeDocumentMoniker": "Infastructure\\Implementations\\PasswordHashind.cs",
@@ -246,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "JwtConfigurations.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Configurations\\JwtConfigurations.cs",
               "RelativeDocumentMoniker": "Helpers\\Configurations\\JwtConfigurations.cs",
@@ -258,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -266,12 +283,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-28T13:01:48.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-28T13:01:48.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppExtention.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Helpers\\Extentions\\AppExtention.cs",
               "RelativeDocumentMoniker": "Helpers\\Extentions\\AppExtention.cs",
@@ -283,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Enums\\Role.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Enums\\Role.cs",
@@ -295,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "JwtProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Implementations\\JwtProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Implementations\\JwtProvider.cs",
@@ -307,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UnConfirmedUser.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Entities\\UnConfirmedUser.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Entities\\UnConfirmedUser.cs",
@@ -319,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Response\\Response.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Response\\Response.cs",
@@ -331,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Dal\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Dal\\AppDbContext.cs",
@@ -343,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Dal\\Impelentations\\UserRepository.cs",
               "RelativeDocumentMoniker": "Dal\\Impelentations\\UserRepository.cs",
@@ -355,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Abstractions\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Abstractions\\Repositories\\IUserRepository.cs",
@@ -367,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IJwtProvider.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Interfaces\\IJwtProvider.cs",
               "RelativeDocumentMoniker": "Infastructure\\Interfaces\\IJwtProvider.cs",
@@ -379,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IPasswordHashind.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Infastructure\\Interfaces\\IPasswordHashind.cs",
               "RelativeDocumentMoniker": "Infastructure\\Interfaces\\IPasswordHashind.cs",
@@ -391,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DataResponse.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Response\\DataResponse.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Response\\DataResponse.cs",
@@ -403,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserResponse.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Models\\User\\UserResponse.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Models\\User\\UserResponse.cs",
@@ -415,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "RegisterUser.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Models\\User\\RegisterUser.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Models\\User\\RegisterUser.cs",
@@ -427,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LoginUser.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Models\\User\\LoginUser.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Models\\User\\LoginUser.cs",
@@ -439,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "StatusCode.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Enums\\StatusCode.cs",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Enums\\StatusCode.cs",
@@ -451,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Authentification.Domain.csproj",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.Domain\\Authentification.Domain.csproj",
               "RelativeDocumentMoniker": "..\\Authentification.Domain\\Authentification.Domain.csproj",
@@ -463,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\78e4265b-36e5-4883-a0fa-af50f690f637\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\zelen\\AppData\\Roaming\\Microsoft\\UserSecrets\\78e4265b-36e5-4883-a0fa-af50f690f637\\secrets.json",
@@ -475,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Authentification.API.csproj",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\Authentification.API.csproj",
               "RelativeDocumentMoniker": "Authentification.API.csproj",
@@ -487,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "libman.json",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Authentification.API\\libman.json",
               "RelativeDocumentMoniker": "libman.json",

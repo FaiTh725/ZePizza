@@ -3,11 +3,21 @@
   "WorkspaceRootPath": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.api\\services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|solutionrelative:services\\implementations\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -16,6 +26,13 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.api\\helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|solutionrelative:helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.api\\helpers\\handlers\\stripeexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|solutionrelative:helpers\\handlers\\stripeexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.api\\helpers\\configurations\\paymentconf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,19 +46,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\models\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\response\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\response\\dataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD479B79-A886-44B7-889A-B9E2C2FB5015}|Payment.API.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B5357DD-DF8B-44E3-B038-C16B0747C816}|..\\Payment.Domain\\Payment.Domain.csproj|c:\\vsprojects\\microservicessolo\\backend\\payment.domain\\abstractions\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -72,7 +76,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,46 +95,38 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "..\\Payment.Domain\\Models\\Customer.cs",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\Customer.cs",
-              "RelativeToolTip": "..\\Payment.Domain\\Models\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T17:01:21.954Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Services\\Implementations\\PaymentService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\PaymentService.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Services\\Implementations\\PaymentService.cs",
               "RelativeToolTip": "Services\\Implementations\\PaymentService.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAowHIAAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T16:27:09.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T14:17:21.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Models\\Transaction.cs",
@@ -138,12 +134,11 @@
               "RelativeToolTip": "..\\Payment.Domain\\Models\\Transaction.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T17:07:08.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T17:07:08.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CreditCard.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\CreditCard.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Models\\CreditCard.cs",
@@ -155,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "StatusCode.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Enums\\StatusCode.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Enums\\StatusCode.cs",
@@ -167,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "CreateTransaction.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\CreateTransaction.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Models\\CreateTransaction.cs",
@@ -179,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "DataResponse.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Response\\DataResponse.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Response\\DataResponse.cs",
@@ -187,23 +182,25 @@
               "RelativeToolTip": "..\\Payment.Domain\\Response\\DataResponse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T22:28:34.091Z"
+              "WhenOpened": "2024-08-06T22:28:34.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Response\\Response.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Response\\Response.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Response\\Response.cs",
               "RelativeToolTip": "..\\Payment.Domain\\Response\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-06T22:28:33.796Z"
+              "WhenOpened": "2024-08-06T22:28:33.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "PaymentConf.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Helpers\\Configurations\\PaymentConf.cs",
               "RelativeDocumentMoniker": "Helpers\\Configurations\\PaymentConf.cs",
@@ -211,24 +208,50 @@
               "RelativeToolTip": "Helpers\\Configurations\\PaymentConf.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T14:37:53.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T14:37:53.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "Controllers\\PaymentController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwCYAAAAaAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA7wBsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T15:12:02.83Z"
+              "WhenOpened": "2024-08-05T15:12:02.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\Payment.Domain\\Models\\Customer.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\Payment.Domain\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T17:01:21.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StripeExceptionHandler.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Helpers\\Handlers\\StripeExceptionHandler.cs",
+              "RelativeDocumentMoniker": "Helpers\\Handlers\\StripeExceptionHandler.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Helpers\\Handlers\\StripeExceptionHandler.cs",
+              "RelativeToolTip": "Helpers\\Handlers\\StripeExceptionHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:12:38.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AppExtention.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Helpers\\Extentions\\AppExtention.cs",
               "RelativeDocumentMoniker": "Helpers\\Extentions\\AppExtention.cs",
@@ -241,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "CreateCustomer.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Models\\CreateCustomer.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Models\\CreateCustomer.cs",
@@ -253,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Abstractions\\Services\\IPaymentService.cs",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Abstractions\\Services\\IPaymentService.cs",
@@ -265,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -277,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Payment.Domain.csproj",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.Domain\\Payment.Domain.csproj",
               "RelativeDocumentMoniker": "..\\Payment.Domain\\Payment.Domain.csproj",
@@ -289,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Payment.API.csproj",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Payment.API.csproj",
               "RelativeDocumentMoniker": "Payment.API.csproj",
@@ -301,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Payment.API.http",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Payment.API\\Payment.API.http",
               "RelativeDocumentMoniker": "Payment.API.http",
@@ -310,10 +333,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-08-05T14:17:43.183Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

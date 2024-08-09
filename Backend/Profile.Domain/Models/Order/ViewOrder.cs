@@ -8,7 +8,7 @@ namespace Profile.Domain.Models.Order
 {
     public class ViewOrder
     {
-        public int Id { get; set; }
+        public string Id { get; set; } = string.Empty;
 
         public string Description { get; set; } = string.Empty;
 

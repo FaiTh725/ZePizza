@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Profile.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,6 +17,6 @@ namespace Profile.Domain.Abstractions.Repositories
         Task<ProfileEntity?> GetProfileById(int id);
 
         Task<ProfileEntity?> GetProfileByEmail(string email);
-        
+
     }
 }

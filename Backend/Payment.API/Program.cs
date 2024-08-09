@@ -1,4 +1,5 @@
 using Payment.API.Helpers.Extentions;
+using Payment.API.Helpers.Handlers;
 using Payment.API.Services.Implementations;
 using Payment.Domain.Abstractions.Services;
 
@@ -14,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
 
 builder.Services.AddPayment(builder.Configuration);
+builder.Services.AddExceptionHandler<StripeExceptionHandler>();
 
 var app = builder.Build();
 
@@ -23,6 +25,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseExceptionHandler(_ => { });
 
 app.UseHttpsRedirection();
 

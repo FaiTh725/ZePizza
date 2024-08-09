@@ -1,6 +1,7 @@
 ﻿using Payment.Domain.Models;
 using Profile.Domain.Abstractions.Repositories;
 using Profile.Domain.Abstractions.Services;
+using Profile.Domain.Entities;
 using Profile.Domain.Enums;
 using Profile.Domain.Models.Order;
 using Profile.Domain.Models.Profile;
@@ -17,17 +18,20 @@ namespace Profile.API.Services.Implementations
     public class ProfileService : IProfileService
     {
         private readonly IProfileRepository profileRepository;
+        private readonly IOrderRepository orderRepository;
         private readonly IHttpClientFactory httpClientFactory;
         private readonly IConfiguration configuration;
 
         public ProfileService(
             IProfileRepository profileRepository,
             IHttpClientFactory httpClientFactory,
-            IConfiguration configuration)
+            IConfiguration configuration,
+            IOrderRepository orderRepository)
         {
             this.profileRepository = profileRepository;
             this.httpClientFactory = httpClientFactory;
             this.configuration = configuration;
+            this.orderRepository = orderRepository;
         }
 
         public async Task<DataResponse<ViewProfile>> CreateProfile(CreateProfile createProfile)
@@ -67,21 +71,38 @@ namespace Profile.API.Services.Implementations
 
         public async Task<DataResponse<ViewOrder>> PayOrder(CreateOrder order)
         {
+            var profile = await profileRepository.GetProfileByEmail(order.EmailProfile);
+
+            if (profile is null) 
+            {
+                return new DataResponse<ViewOrder>
+                {
+                    Description = "Profile with this email not found",
+                    StatusCode = StatusCode.NotFound,
+                    Data = new()
+                };
+            }
+
             var paymentClient = httpClientFactory.CreateClient("Payment");
 
             var clientId = string.Empty;
-
             // Get ClientId
-            var response = await paymentClient.GetAsync($"?email={order.EmailProfile}");
+            var response = await paymentClient.GetAsync(@$"GetCustomerId/?email={order.EmailProfile}");
+
+            var jsonSerializeOptions = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+                DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault
+            };
 
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
 
-                var data = JsonSerializer.Deserialize<PaymentResponse.DataResponse<Customer>>(content);
+                var data = JsonSerializer.Deserialize<PaymentResponse.DataResponse<Customer>>(content, jsonSerializeOptions);
 
 
-                if (data == null)
+                if (data == null || data.Data == null)
                 {
                     return new DataResponse<ViewOrder>
                     {
@@ -110,13 +131,13 @@ namespace Profile.API.Services.Implementations
                                         Application.Json
                                         );
 
-                    var responseCreateCustomer = await paymentClient.PostAsync("CreateCutomer", createCustomerJson);
+                    var responseCreateCustomer = await paymentClient.PostAsync("CreateCustomer", createCustomerJson);
 
                     if (response.IsSuccessStatusCode)
                     {
                         var contentCreateCustomer = await responseCreateCustomer.Content.ReadAsStringAsync();
 
-                        var dataCreateCustomer = JsonSerializer.Deserialize<PaymentResponse.DataResponse<Customer>>(contentCreateCustomer);
+                        var dataCreateCustomer = JsonSerializer.Deserialize<PaymentResponse.DataResponse<Customer>>(contentCreateCustomer, jsonSerializeOptions);
 
                         if (dataCreateCustomer != null && dataCreateCustomer.StatusCode == PaymentStatusCode.Ok)
                         {
@@ -173,7 +194,7 @@ namespace Profile.API.Services.Implementations
 
             var contentTransaction = await transactionResponse.Content.ReadAsStringAsync();
 
-            var dataTransaction = JsonSerializer.Deserialize<PaymentResponse.DataResponse<Transaction>>(contentTransaction);
+            var dataTransaction = JsonSerializer.Deserialize<PaymentResponse.DataResponse<Transaction>>(contentTransaction, jsonSerializeOptions);
 
             if(dataTransaction == null || dataTransaction.StatusCode != PaymentStatusCode.Ok)
             {
@@ -186,6 +207,15 @@ namespace Profile.API.Services.Implementations
             }
             else
             {
+                // Add transaction to profile history
+                await orderRepository.AddOrder(new Order
+                {
+                    Profile = profile,
+                    Description = order.Description,
+                    Amount = order.Amount,
+                    CreatedDate = DateTime.UtcNow.Date,
+                });
+
                 return new DataResponse<ViewOrder>
                 {
                     StatusCode = StatusCode.Ok,
@@ -194,7 +224,7 @@ namespace Profile.API.Services.Implementations
                     {
                         CreatedDate = DateTime.UtcNow,
                         Description = dataTransaction.Data.Description,
-                        Id = int.Parse(dataTransaction.Data.Id),
+                        Id = dataTransaction.Data.Id,
                         Amount = dataTransaction.Data.Amount,
                     }
                 };
@@ -230,7 +260,7 @@ namespace Profile.API.Services.Implementations
                     BirthDay = newUpdateProfile.BirthDay,
                     Orders = newUpdateProfile.Orders.Select(x => new ViewOrder
                     {
-                        Id = x.Id,
+                        Id = x.Id.ToString(),
                         Amount = x.Amount,
                         CreatedDate = x.CreatedDate,
                         Description = x.Description

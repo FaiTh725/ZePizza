@@ -25,141 +25,83 @@ namespace Payment.API.Services.Implementations
 
         public async Task<DataResponse<CustomerModel>> CreateCustomer(CreateCustomer customer, CancellationToken cancellationToken = default)
         {
-            try
+            var customerOptions = new CustomerCreateOptions
             {
-                var options = new CustomerListOptions
-                {
-                    Email = customer.Email,
-                };
-                var service = new CustomerService();
+                Name = customer.Name,
+                Email = customer.Email,
+            };
 
-                var customers = await service.ListAsync(options);
+            // Create customer at Stripe
+            var stripeCustomer = await customerService.CreateAsync(customerOptions, null, cancellationToken);
 
-                if (!customers.Any())
+            // Set Stripe Token options based on customer data
+            var cardTokenOptions = new CardCreateOptions
+            {
+                Source = "tok_visa_debit",
+
+            };
+
+            // Create new Card Token
+            var cardToken = await cardService.CreateAsync(stripeCustomer.Id.ToString(), cardTokenOptions, null, cancellationToken);
+
+
+            // if working is not test mode
+            /*var options1 = new PaymentMethodCreateOptions
+            {
+                Type = "card",
+                Card = new PaymentMethodCardOptions
                 {
-                    return new DataResponse<CustomerModel>
-                    {
-                        StatusCode = StatusCode.NotFound,
-                        Description = "Customer with this email not found",
-                        Data = new()
-                    };
+                    Number = "4242424242424242",
+                    ExpMonth = 8,
+                    ExpYear = 2026,
+                    Cvc = "314",
+                },
+            };
+            var service1 = new PaymentMethodService();
+            service1.Create(options1);*/
+
+            return new DataResponse<CustomerModel>
+            {
+                StatusCode = StatusCode.Ok,
+                Description = "Success create customer",
+                Data = new CustomerModel
+                {
+                    Name = stripeCustomer.Name,
+                    Email = stripeCustomer.Email,
+                    Id = stripeCustomer.Id,
                 }
+            };
 
-                var customerOptions = new CustomerCreateOptions
-                {
-                    Name = customer.Name,
-                    Email = customer.Email,
-                };
-
-                // Create customer at Stripe
-                var stripeCustomer = await customerService.CreateAsync(customerOptions, null, cancellationToken);
-
-                // Set Stripe Token options based on customer data
-                var cardTokenOptions = new CardCreateOptions
-                {
-                    Source = "tok_visa_debit",
-
-                };
-
-                // Create new Card Token
-                var cardToken = await cardService.CreateAsync(stripeCustomer.Id.ToString(), cardTokenOptions, null, cancellationToken);
-
-
-                // if working is not test mode
-                /*var options1 = new PaymentMethodCreateOptions
-                {
-                    Type = "card",
-                    Card = new PaymentMethodCardOptions
-                    {
-                        Number = "4242424242424242",
-                        ExpMonth = 8,
-                        ExpYear = 2026,
-                        Cvc = "314",
-                    },
-                };
-                var service1 = new PaymentMethodService();
-                service1.Create(options1);*/
-
-                return new DataResponse<CustomerModel>
-                {
-                    StatusCode = StatusCode.Ok,
-                    Description = "Success create customer",
-                    Data = new CustomerModel
-                    {
-                        Name = stripeCustomer.Name,
-                        Email = stripeCustomer.Email,
-                        Id = stripeCustomer.Id,
-                    }
-                };
-            }
-            catch (StripeException)
-            {
-                return new DataResponse<CustomerModel>
-                {
-                    StatusCode = StatusCode.BadRequest,
-                    Description = "Error with user credential",
-                    Data = new()
-                };
-            }
-            catch (Exception)
-            {
-                return new DataResponse<CustomerModel>
-                {
-                    StatusCode = StatusCode.InternalServerError,
-                    Description = "Some wrong with service",
-                    Data = new()
-                };
-            }
         }
 
         public async Task<DataResponse<Transaction>> CreateTransaction(CreateTransaction transaction, CancellationToken cancellationToken = default)
         {
-            try
+            var chargeOptions = new ChargeCreateOptions
             {
-                var chargeOptions = new ChargeCreateOptions
-                {
-                    Currency = transaction.Currency,
-                    Amount = transaction.Amount * 100,
-                    ReceiptEmail = transaction.ReceiptEmail,
-                    Description = transaction.Description,
-                    Customer = transaction.CustomerId
-                };
+                Currency = transaction.Currency,
+                Amount = transaction.Amount * 100,
+                ReceiptEmail = transaction.ReceiptEmail,
+                Description = transaction.Description,
+                Customer = transaction.CustomerId
+            };
 
-                var responseTransaction = await chargeService.CreateAsync(chargeOptions, null, cancellationToken);
+            var responseTransaction = await chargeService.CreateAsync(chargeOptions, null, cancellationToken);
 
-                return new DataResponse<Transaction>
-                {
-                    StatusCode = StatusCode.Ok,
-                    Description = "Success execute transaction",
-                    Data = new Transaction
-                    {
-                        Id = responseTransaction.Id,
-                        Amount = responseTransaction.Amount / 100,
-                        ReceiptEmail = responseTransaction.ReceiptEmail,
-                        Description = responseTransaction.Description,
-                        Currency = responseTransaction.Currency,
-                        CustomerId = responseTransaction.CustomerId
-                    }
-                };
-            }
-            catch (StripeException)
+            return new DataResponse<Transaction>
             {
-                return new DataResponse<Transaction>
+                StatusCode = StatusCode.Ok,
+                Description = "Success execute transaction",
+                Data = new Transaction
                 {
-                    StatusCode = StatusCode.BadRequest,
-                    Description = "Error with customer data",
-                    Data = new()
-                };
-            }
-            catch (Exception)
-            {
-                return new DataResponse<Transaction>
-                {
-                    StatusCode = StatusCode.InternalServerError,
-                    Description = "Some wrong with service",
-                    Data = new()
-                };
-            }
+                    Id = responseTransaction.Id,
+                    Amount = responseTransaction.Amount / 100,
+                    ReceiptEmail = responseTransaction.ReceiptEmail,
+                    Description = responseTransaction.Description,
+                    Currency = responseTransaction.Currency,
+                    CustomerId = responseTransaction.CustomerId
+                }
+            };
+
         }
 
         public async Task<DataResponse<CustomerModel>> GetCustomer(string email)
@@ -168,6 +110,7 @@ namespace Payment.API.Services.Implementations
             {
                 Email = email,
             };
+
             var service = new CustomerService();
 
             var customers = await service.ListAsync(options);

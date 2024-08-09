@@ -14,7 +14,7 @@ namespace Profile.Domain.Entities
 
         public double Amount { get; set; }
 
-        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow.Date;
 
         public Profile Profile { get; set; }
     }

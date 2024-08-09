@@ -37,7 +37,7 @@ namespace Profile.API.Helpers.Extentions
         {
             service.AddHttpClient("Payment", conf =>
             {
-                conf.BaseAddress = new Uri($"{configuration["APIUri:Payment"]}/api/Payment");
+                conf.BaseAddress = new Uri($"{configuration["APIUri:Payment"]}/api/Payment/");
             });
         }
 
