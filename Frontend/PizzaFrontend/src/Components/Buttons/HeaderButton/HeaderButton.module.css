@@ -1,0 +1,21 @@
+.main {
+    font-family: var(--fm);
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main * {
+    transition: all .4s;
+}
+
+.main:hover * {
+    fill: var(--clr);
+    color: var(--clr);
+}
+
+.main:hover .imageContainer * {
+    transform: translateY(-2.5px);
+}

@@ -1,0 +1,18 @@
+.main 
+{
+    font-family: var(--fm);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.imgContainer img{
+    width: 80px;
+}
+
+.data {
+    margin-left: 10px;
+    line-height: 20px;
+}

@@ -1,0 +1,37 @@
+.main {
+    position: relative;
+}
+
+.close {
+    width: 0;
+    height: 0;
+    transform: scale(0);
+    opacity: 0;
+}
+
+
+.open {
+    transform: scale(1);
+    opacity: 1;
+    width: auto;
+    height: auto;
+}
+
+.informationContent {
+    background-color: rgb(59, 59, 59);
+    border-radius: 14px;
+    position: absolute;
+    max-width: 300px;
+    min-width: 300px;
+    top: 55px;
+    left: -250px;
+    transition: scale .5s, opacity .3s;
+}
+
+.openInformation {
+    transition: all .4s;
+}
+
+.openInformation:hover {
+    transform: scale(1.15);
+}

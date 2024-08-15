@@ -1,0 +1,18 @@
+
+.navigationitems {
+    font-family: var(--fm);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.link {
+    transition: all .5s;
+}
+
+.link:hover {
+    color: var(--clr);
+}
+
+.link + .link {
+    margin-left: 15px;
+}

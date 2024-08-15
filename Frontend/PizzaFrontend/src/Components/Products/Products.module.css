@@ -1,0 +1,11 @@
+
+
+.main {
+    font-size: 25px;
+    font-family: var(--fm);
+    font-weight: 500;
+}
+
+.main div {
+    padding-top: 10px;
+}

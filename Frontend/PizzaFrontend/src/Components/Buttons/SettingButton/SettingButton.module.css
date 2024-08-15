@@ -1,0 +1,25 @@
+
+.container {
+    font-family: var(--fm);
+    border-radius: 14px;
+    box-shadow: 0 5px 5px transparent;
+    padding: 5px 25px;
+    
+}
+
+.container:hover .content{
+    font-weight: 550;
+}
+
+.content {
+    transition: all .4s;
+}
+
+.isSelected {
+    box-shadow: 0 5px 5px rgba(197, 193, 193, 0.753);
+}
+
+.isUnSelected {
+    
+    box-shadow: 0 5px 5px transparent;
+}

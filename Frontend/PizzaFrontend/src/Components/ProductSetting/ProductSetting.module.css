@@ -1,0 +1,83 @@
+
+
+.main {
+    padding: 20px;
+    display: flex;
+    font-family: var(--fm);
+    max-width: 1000px;
+    max-height: 600px;
+}
+
+.imageContainer img{
+    width: 450px;
+    height: 450px;
+}
+
+.productData {
+    margin-left: 40px;
+    overflow-y: auto;
+    padding-right: 40px;
+}
+
+.name {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productSize {
+    margin: 10px 0;
+    color: rgb(153, 153, 153);
+}
+
+.productIngridience {
+    line-height: 24px;
+    color: rgb(70, 70, 70);
+}
+
+.settingButtons {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productAdditives {
+    margin-top: 40px;
+    font-size: 24px;
+} 
+
+.additives {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+
+.additives * + * {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.additionalInformation {
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.additionalInformation > :first-child {
+    color: #8d8c8c;
+}
+
+.nutritionalValue {
+    margin: 10px 0;
+    color: #fff;
+}
+
+.nutritionalValue section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutritionalValue * + *
+{
+    margin-top: 10px;
+}

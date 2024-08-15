@@ -1,0 +1,82 @@
+.btnContent {
+    height: 25px;
+}
+
+.main {
+    font-family: var(--fm);
+    font-weight: 500;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.rectangleTranslation {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.inform {
+    display: flex;
+}
+
+.inform :first-child {
+    display: flex;
+}
+
+.inform a {
+    transition: .4s;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.inform a:hover {
+    color: var(--clr);
+}
+
+.inform a + a{
+    margin-left: 10px;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    width: 260px;
+}
+
+.headerInfo {
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.delivery { 
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+.delivery :last-child {
+    color: var(--clr);
+}
+
+.contacts {
+    max-width: 100px;
+}
+
+.contacts :last-child {
+    color: rgb(153, 153, 153);
+}
+
+.navUser {
+    display: flex;
+}
+
+.navUser * + * {
+    margin-left: 15px;
+}

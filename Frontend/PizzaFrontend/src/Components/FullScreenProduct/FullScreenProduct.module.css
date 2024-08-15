@@ -1,0 +1,48 @@
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 45, 46, 0.548);
+    top: 0;
+    left: 0;
+    transition: scale .3s, opacity .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.open {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.close {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transform: scale(0);
+}
+
+.content {
+    display: flex;
+}
+
+.contentChildren {
+    border-radius: 18px;
+    background-color: #fff;
+}
+
+.closeBtnContainer {
+    background-color: transparent;
+}
+
+.closeBtnContainer button {
+    background-color: transparent;
+    transition: all .4s;
+}
+
+.closeBtnContainer button:hover {
+    transform: scale(1.15);
+}
