@@ -1,0 +1,17 @@
+
+.container {
+    font-family: var(--fm);
+    font-size: 14px;
+    
+}
+
+.elemName {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.ordersEmpty {
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+}

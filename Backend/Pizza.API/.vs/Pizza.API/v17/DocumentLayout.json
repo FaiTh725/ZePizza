@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\pizza.api\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|solutionrelative:controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\pizza.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\pizza.api\\controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|solutionrelative:controllers\\pizzacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\pizza.api\\helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|solutionrelative:helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\pizza.api\\services\\implementations\\pizzaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|solutionrelative:dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\pizza.api\\helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|solutionrelative:helpers\\extentions\\appextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|c:\\vsprojects\\microservicessolo\\backend\\pizza.api\\models\\additive\\viewadditive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC0E98B6-1C02-4B22-8EE6-E5C13C33460E}|Pizza.API.csproj|solutionrelative:models\\additive\\viewadditive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -150,7 +150,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -170,19 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-05T13:33:30.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AdditiveService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Services\\Implementations\\AdditiveService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\AdditiveService.cs",
@@ -194,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PizzaService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Services\\Implementations\\PizzaService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\PizzaService.cs",
@@ -206,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IFileService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Services\\Interfaces\\IFileService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IFileService.cs",
@@ -218,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -230,20 +218,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PizzaController.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Controllers\\PizzaController.cs",
               "RelativeDocumentMoniker": "Controllers\\PizzaController.cs",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Controllers\\PizzaController.cs",
-              "RelativeToolTip": "Controllers\\PizzaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAwAAAA",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Controllers\\PizzaController.cs*",
+              "RelativeToolTip": "Controllers\\PizzaController.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T22:48:19.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Additive.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Domain\\Entities\\Additive.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Additive.cs",
@@ -255,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UpdatePizza.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Models\\Pizza\\UpdatePizza.cs",
               "RelativeDocumentMoniker": "Models\\Pizza\\UpdatePizza.cs",
@@ -267,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AdditiveController.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Controllers\\AdditiveController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdditiveController.cs",
@@ -279,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AdditiveConfiguration.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Dal\\Configuration\\AdditiveConfiguration.cs",
               "RelativeDocumentMoniker": "Dal\\Configuration\\AdditiveConfiguration.cs",
@@ -291,20 +279,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAuAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T19:38:32.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IAdditiveService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Services\\Interfaces\\IAdditiveService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IAdditiveService.cs",
@@ -316,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Services\\Implementations\\FileService.cs",
               "RelativeDocumentMoniker": "Services\\Implementations\\FileService.cs",
@@ -328,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PizzaRepository.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Dal\\Implementations\\PizzaRepository.cs",
               "RelativeDocumentMoniker": "Dal\\Implementations\\PizzaRepository.cs",
@@ -340,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IPizzaService.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Services\\Interfaces\\IPizzaService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IPizzaService.cs",
@@ -352,7 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "ViewPizza.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Models\\Pizza\\ViewPizza.cs",
               "RelativeDocumentMoniker": "Models\\Pizza\\ViewPizza.cs",
@@ -364,7 +352,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
+              "Title": "AppExtention.cs",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Helpers\\Extentions\\AppExtention.cs",
+              "RelativeDocumentMoniker": "Helpers\\Extentions\\AppExtention.cs",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Helpers\\Extentions\\AppExtention.cs",
+              "RelativeToolTip": "Helpers\\Extentions\\AppExtention.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T23:06:01.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-05T13:33:30.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "IAdditiveRepository.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Dal\\Interfaces\\IAdditiveRepository.cs",
               "RelativeDocumentMoniker": "Dal\\Interfaces\\IAdditiveRepository.cs",
@@ -376,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AdditiveRepository.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Dal\\Implementations\\AdditiveRepository.cs",
               "RelativeDocumentMoniker": "Dal\\Implementations\\AdditiveRepository.cs",
@@ -388,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FileResponse.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Models\\File\\FileResponse.cs",
               "RelativeDocumentMoniker": "Models\\File\\FileResponse.cs",
@@ -424,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Domain\\Response\\Response.cs",
               "RelativeDocumentMoniker": "Domain\\Response\\Response.cs",
@@ -436,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Dal\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Dal\\AppDbContext.cs",
@@ -445,18 +458,6 @@
               "ViewState": "AQIAAAcAAAAAAAAAAAA2wBcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T18:36:01.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AppExtention.cs",
-              "DocumentMoniker": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Helpers\\Extentions\\AppExtention.cs",
-              "RelativeDocumentMoniker": "Helpers\\Extentions\\AppExtention.cs",
-              "ToolTip": "C:\\VSProjects\\MicroservicesSolo\\Backend\\Pizza.API\\Helpers\\Extentions\\AppExtention.cs",
-              "RelativeToolTip": "Helpers\\Extentions\\AppExtention.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAiwB8AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T23:06:01.247Z"
             },
             {
               "$type": "Document",

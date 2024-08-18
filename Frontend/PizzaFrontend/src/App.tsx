@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './Pages/HomeScreen'
+import ProfileScreen from './Pages/ProfileScreen'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='*' element={<Home/>}/>
+        <Route path='/profile' element={<ProfileScreen/>}/>
       </Routes>
     </BrowserRouter>
   )

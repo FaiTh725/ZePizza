@@ -1,0 +1,88 @@
+.main {
+    font-family: var(--fm);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.additionInformation {
+    padding: 10px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    box-shadow: 0 0 5px rgb(153, 153, 153);
+    padding: 10px 5px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+    transition: all .4s;
+}
+
+.data:focus-within {
+    border: 2px solid #ff6900;
+    box-shadow: 0 0 5px transparent;
+}
+
+.data input{
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 330px;
+    max-width: 330px;
+    padding-left: 15px;
+}
+
+.btnContainer button{
+    background-color: transparent;
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    transition: all .4s;
+}
+
+.dataWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.cancelBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cancelBtnContainer button{
+    background-color: transparent;
+    color: #ff6900;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: opacity .4s;
+}
+
+.btnContainer button.valueChange {
+    color: #ff6900;
+}
+
+.isVisible {
+    opacity: 1;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.isHidden {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: none;
+}

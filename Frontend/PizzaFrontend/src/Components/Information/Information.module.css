@@ -2,6 +2,10 @@
     position: relative;
 }
 
+.openInformation {
+    padding: 10px;
+}
+
 .close {
     width: 0;
     height: 0;
@@ -26,6 +30,7 @@
     top: 55px;
     left: -250px;
     transition: scale .5s, opacity .3s;
+    z-index: 1000;
 }
 
 .openInformation {

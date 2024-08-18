@@ -9,3 +9,13 @@
 .main div {
     padding-top: 10px;
 }
+
+.pizzasContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.ofenOrder {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}

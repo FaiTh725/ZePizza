@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    align-items: center;
+    font-family: var(--fm);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.fields {
+    display: flex;
+    align-items: center;
+}
+
+.fields > div {
+    transition: all .4s;
+}
+
+.fields > div:hover {
+    border: 1px solid #ff6900;
+}
+
+.data {
+    border: 1px solid rgb(200, 200, 200);
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    box-sizing: border-box;
+}
+
+.month {
+
+    border: 1px solid rgb(200, 200, 200);
+    /* border-bottom: 1px solid rgb(200, 200, 200); */
+    box-sizing: border-box;
+}
+
+.year {
+    border: 1px solid rgb(200, 200, 200);
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    box-sizing: border-box;
+}
+
+.btnContainer button{
+    color: rgb(153, 153, 153);
+    font-weight: 600;
+    margin-left: 15px;
+}

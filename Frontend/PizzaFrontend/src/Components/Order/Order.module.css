@@ -1,0 +1,16 @@
+.orderItem {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 20px;
+}
+
+.orderItem div{
+    padding: 10px 15px;
+}
+
+.pizzaImg img{
+    width: 100px;
+}
+
+.discription {
+    text-wrap: wrap;
+}

@@ -16,7 +16,7 @@ const Home = () => {
     ]
 
     return (
-        <main style={{padding: "20px 180px"}}>
+        <main style={{position: "relative", padding: "20px 180px", maxWidth: "1800px", margin: "0 auto"}}>
             <Header/>
             <Navigatin links={navigation}/>
             <Products/>

@@ -7,7 +7,7 @@ namespace Pizza.API.Controllers
 {
 
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("/api[controller]")]
     public class PizzaController : ControllerBase
     {
         private readonly IPizzaService pizzaService;
@@ -19,7 +19,8 @@ namespace Pizza.API.Controllers
         }
 
         [HttpPost("[action]")]
-        /*[Authorize("Manager")]*/
+        //[Authorize(AuthenticationSchemes = "Manager")]
+        //[Authorize("Manager")]
         public async Task<IActionResult> CreatePizza([FromForm]CreatePizza request)
         {
             var response = await pizzaService.CreatePizza(request);

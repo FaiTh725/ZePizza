@@ -1,0 +1,53 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.btnContainer {
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.btnContainer:hover {
+    opacity: 1;
+}
+
+.btnContainer img{
+    width: 30px;
+}
+
+.btnContainerPrev {
+    left: 0;
+    padding-right: 30px;
+}
+
+.btnContainerNext {
+    right: 0;
+    padding-left: 30px;
+}
+
+.dataWrapper {
+    display: flex;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.dataWrapper * {
+    width: 200px;
+}
+
+.dataWrapper * + *{
+    margin-left: 20px;
+}
+
+.dataWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.hideElement {
+    opacity: 0;
+}

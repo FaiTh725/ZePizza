@@ -1,0 +1,263 @@
+[
+  {
+    "ContainingType": "Pizza.API.Controllers.AdditiveController",
+    "Method": "CreateAdditive",
+    "RelativePath": "api/Additive/CreateAdditive",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.AdditiveController",
+    "Method": "DeleteAdditive",
+    "RelativePath": "api/Additive/DeleteAdditive",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "additiveId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.AdditiveController",
+    "Method": "GetAllAdditives",
+    "RelativePath": "api/Additive/GetAllAdditives",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.AdditiveController",
+    "Method": "UpdateAddtitive",
+    "RelativePath": "api/Additive/UpdateAddtitive",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.PizzaController",
+    "Method": "CreatePizza",
+    "RelativePath": "apiPizza/CreatePizza",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Radius",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Weight",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasePrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sizetype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoughType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.EnergyValue",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.Protein",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.Fats",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.Carbonydrates",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdAdditives",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.PizzaController",
+    "Method": "DeletePizza",
+    "RelativePath": "apiPizza/DeletePizza",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pizzaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.PizzaController",
+    "Method": "GetAllPizzas",
+    "RelativePath": "apiPizza/GetAllPizzas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.PizzaController",
+    "Method": "GetPizza",
+    "RelativePath": "apiPizza/GetPizza",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pizzaId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Pizza.API.Controllers.PizzaController",
+    "Method": "UpdatePizza",
+    "RelativePath": "apiPizza/UpdatePizza",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Radius",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Weight",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "BasePrice",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Sizetype",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DoughType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.EnergyValue",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.Protein",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.Fats",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "NutritionalValue.Carbonydrates",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdAdditives",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

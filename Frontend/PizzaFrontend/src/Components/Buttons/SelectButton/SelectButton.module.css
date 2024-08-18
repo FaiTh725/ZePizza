@@ -1,0 +1,15 @@
+
+.btn {
+    font-weight: 600;
+    color: #ff6900;
+    font-size: 16px;
+    border-radius: 18px;
+    transition: all .4s;
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    background-color: #ff6a0073;
+}

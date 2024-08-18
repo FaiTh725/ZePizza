@@ -1,0 +1,63 @@
+.container {
+    font-family: var(--fm);
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 14px;
+    border: 1px solid rgb(200, 200, 200);
+    transition: all .4s;
+}
+
+.container:hover {
+    border: 1px solid #ff6900;
+}
+
+.shortInfo {
+    display: grid;
+    grid-template-columns: 200px 400px 200px 50px;
+    max-width: 900px;
+}
+
+.totalPrice {
+    text-align: center;
+}
+
+.idOrder {
+    margin-left: 20px;
+}
+
+.shortInfo section {
+    padding: 10px 15px;
+    margin-right: 50px;
+}
+
+.shortInfo > :last-child {
+    margin-right: 0px;
+}
+
+.arrowImg img{
+    height: 25px;
+}
+
+.orderItems {
+    max-width: 900px;
+    height: 330px;
+    overflow-y: auto;
+    transition: height 6s opacity .3s;
+} 
+
+.orderHidden {
+    opacity: 0;
+    height: 0;
+    display: none;
+}
+
+.orderVisible {
+    opacity: 1;
+    height: 330;
+    display: block;
+}
+
+.orangeBorder {
+    border: 1px solid #ff6900;
+}

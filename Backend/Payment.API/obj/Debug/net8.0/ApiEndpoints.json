@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "Payment.API.Controllers.PaymentController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/Payment/CreateCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Payment.Domain.Models.CreateCustomer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Payment.API.Controllers.PaymentController",
+    "Method": "ExecuteTransaction",
+    "RelativePath": "api/Payment/ExecuteTransaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Payment.Domain.Models.CreateTransaction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Payment.API.Controllers.PaymentController",
+    "Method": "GetCustomerId",
+    "RelativePath": "api/Payment/GetCustomerId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

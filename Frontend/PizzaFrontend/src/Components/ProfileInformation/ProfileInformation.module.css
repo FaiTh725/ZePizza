@@ -1,0 +1,13 @@
+.container {
+    font-family: var(--fm);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sectionName {
+    margin-bottom: 20px;
+}
+
+.container section + section {
+    margin-top: 20px;
+}

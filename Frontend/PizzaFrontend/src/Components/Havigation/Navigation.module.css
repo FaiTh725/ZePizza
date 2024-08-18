@@ -3,6 +3,25 @@
     font-family: var(--fm);
     font-size: 14px;
     font-weight: 600;
+    position: sticky;
+    z-index: 10;
+    top: -1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    
+    display: flex;
+    align-items: center;
+}
+
+.isView {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.isNotView {
+    margin-right: 0px;
+    width: 0px;
+    opacity: 0;
 }
 
 .link {
@@ -15,4 +34,23 @@
 
 .link + .link {
     margin-left: 15px;
+}
+
+.imgContainer {
+    transition: all .4s;
+}
+
+.btnBucket {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.btnWrapper {
+    margin-right: 30px;
+    padding: 10px 0;
+}
+
+.btnContent {
+    padding: 0 15px;
 }

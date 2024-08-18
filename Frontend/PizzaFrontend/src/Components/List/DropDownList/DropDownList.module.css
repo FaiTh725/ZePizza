@@ -1,0 +1,58 @@
+
+.container {
+    font-family: var(--fm);
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.arrowContainer {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrowContainer img{
+    height: 15px;
+}
+
+.valuesContainer {
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 7px;
+    width: 110px;
+    top: -5px;
+    left: -5px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.isVisible {
+    width: 110px;
+    height: auto;
+    opacity: 1;
+    display: block;
+}
+
+.isHidden {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    display: none;
+}
+
+.value {
+    cursor: pointer;
+    line-height: 30px;
+}

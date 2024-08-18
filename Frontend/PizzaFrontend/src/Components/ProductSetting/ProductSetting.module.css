@@ -5,7 +5,8 @@
     display: flex;
     font-family: var(--fm);
     max-width: 1000px;
-    max-height: 600px;
+    height: 600px;
+    box-sizing: border-box;
 }
 
 .imageContainer img{
@@ -16,11 +17,19 @@
 .productData {
     margin-left: 40px;
     overflow-y: auto;
+    max-height: 400px;
+    height: 100%;
+    min-height: 500px;
+}
+
+.customizeProduct {
     padding-right: 40px;
+    height: 100%;
 }
 
 .name {
     font-size: 24px;
+    padding-right: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -80,4 +89,11 @@
 .nutritionalValue * + *
 {
     margin-top: 10px;
+}
+
+.buyProductBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
 }

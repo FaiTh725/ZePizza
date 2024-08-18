@@ -186,7 +186,10 @@
       },
       "Payment.Domain/1.0.0": {
         "runtime": {
-          "Payment.Domain.dll": {}
+          "Payment.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
